@@ -1,8 +1,9 @@
 .hero {
-  background-color: rgba(13, 104, 187, 0.7);
-  // background-image: url('../../../../assets/3784896.jpg');
-  // background-repeat: no-repeat;
-  // background-size: cover;
+  background-image: linear-gradient(rgba(13, 104, 187, 0.7), rgba(13, 104, 187, 0.7)), url('../../../../assets/3784896.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   display: flex;
   justify-content: space-between;
   padding: 8.8rem 7.9rem;
@@ -26,13 +27,13 @@
   &-subscribe {
     background-color: rgba(255, 255, 255, 0.68);
     border-radius: 2rem;
-    padding: 0 2.4rem;
     text-align: center;
     width: 45rem;
     height: 42rem;
 
     h2 {
       font-size: 3.5rem;
+      padding: 5rem 0 2rem 0;
     }
 
     p {
@@ -46,7 +47,7 @@ form {
   input {
     border-radius: 2rem;
     font-size: 2rem;
-    padding: 2rem;
+    padding: 3rem;
     margin: 4rem 0;
     width: 38rem;
     height: 5rem;
