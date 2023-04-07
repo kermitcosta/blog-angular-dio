@@ -4,14 +4,14 @@ import { HomeComponent } from './home.component';
 import { HomeRoutingModule } from './home-routing.module';
 import { HeroComponent } from '../home/hero/hero.component';
 import { FeaturedPostsComponent } from './featured-posts/featured-posts.component';
-
-
+import { BlogCardComponent } from 'src/app/components/blog-card/blog-card.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
     HeroComponent,
-    FeaturedPostsComponent
+    FeaturedPostsComponent,
+    BlogCardComponent
   ],
   exports: [
     HomeComponent
