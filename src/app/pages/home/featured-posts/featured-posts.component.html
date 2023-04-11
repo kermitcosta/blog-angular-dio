@@ -1,4 +1,5 @@
 <div class="root">
-  <app-blog-card></app-blog-card>
-  <app-blog-card></app-blog-card>
+  <ng-container *ngFor="let post of posts">
+    <app-blog-card [post]="post"></app-blog-card>
+  </ng-container>
 </div>
