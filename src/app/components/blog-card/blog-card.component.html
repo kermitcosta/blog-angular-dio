@@ -2,14 +2,14 @@
   <div class="card-main-section">
     <img [src]="post.imagem" alt="capa" width="650" height="330">
     <h2>{{post.titulo}}</h2>
-    <p>Angular is a popular JavaScript framework that is used to build web applications. In this article, we will explore the basics of Angular, including how it works, its key features, and how to get started with building your first Angular application. We will also cover some best practices for using Angular and share some resources to help you learn more about this powerful framework.</p>
+    <p>{{post.resumo}}</p>
     <a [routerLink]="'/post/'+post.id">Continuar lendo...</a>
   </div>
   <div class="card-secondary-section">
-    <img src="" alt="foto do autor">
+    <img src="../../../assets/robot-2192617_640.png" alt="foto do autor">
     <span>
-      <p>nome</p>
-      <p>data</p>
+      <p>ChatGPT</p>
+      <p>2023</p>
     </span>
   </div>
 </div>
