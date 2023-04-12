@@ -2,6 +2,7 @@
 html {
   font-size: 62.5%;
   background-color: rgba(239, 239, 239, 0.92);
+  overflow-y: overlay;
 }
 
 * {
@@ -12,6 +13,7 @@ html {
 
 a {
   text-decoration: none;
+  color: currentcolor;
 
   &:visited {
     color: currentcolor;
