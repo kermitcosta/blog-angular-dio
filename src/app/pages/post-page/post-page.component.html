@@ -1,5 +1,7 @@
 <div class="root">
   <img [src]="post.imagem" alt="Angular Image" width="650" height="330">
   <article [innerHTML]="post.conteudo"></article>
-  <a class="voltar" routerLink="">🔙 Voltar</a>
+  <span class="voltar">
+    <a routerLink="">🔙 Voltar</a>
+  </span>
 </div>

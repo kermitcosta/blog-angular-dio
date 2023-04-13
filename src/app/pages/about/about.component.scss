@@ -21,6 +21,11 @@
 
   p, li {
     font-size: 2rem;
+    text-indent: 2rem;
+  }
+
+  :last-child{
+    margin-top: 2.4rem;
   }
 
   li {
@@ -29,6 +34,11 @@
 
   ol, ul {
     padding-left: 2.5rem;
+  }
+
+  a {
+    text-decoration: underline;
+    color: #7474e0;
   }
 }
 
